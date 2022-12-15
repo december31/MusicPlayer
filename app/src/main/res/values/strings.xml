@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="demonstrate_text">Demonstrate Text</string>
+    <string name="title">Songs List</string>
+    <string name="font">sans-serif-condensed-medium</string>
+    <string name="subtext_font">sans-serif-condensed</string>
+    <string name="background_image">backgound image</string>
+    <string name="cancel">cancel</string>
+    <string name="edit">edit</string>
+    <string name="downloading">Downloading resources ....</string>
+</resources>
