@@ -9,6 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
+import android.widget.RelativeLayout
 import android.widget.TextView
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
@@ -30,6 +31,7 @@ class SongListItem(private val song: Song): Fragment(), View.OnClickListener {
 
 	override fun onClick(view: View?) {
 		val isPlaying = view?.findViewById<ImageView>(R.id.isPlaying)
+
 		if (isPlaying != null) {
 			if(isPlaying.isVisible) {
 				(activity as MainActivity).stopMusic()
@@ -37,7 +39,9 @@ class SongListItem(private val song: Song): Fragment(), View.OnClickListener {
 				return
 			}
 		}
-		(activity as MainActivity).playMusic(song)
+
+		(activity as MainActivity).retrofitStartDownload(song)
+
 		if (isPlaying != null) {
 			isPlaying.isVisible = !isPlaying.isVisible
 		}

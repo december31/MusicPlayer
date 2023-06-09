@@ -3,7 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android/HelloWorld/MusicsPlayer/app/src/main/res/layout/activity_main.xml" value="0.2609375" />
+        <entry key="..\:/Android/HelloWorld/MusicsPlayer/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Android/HelloWorld/MusicsPlayer/app/src/main/res/layout/song_list_item.xml" value="0.275" />
       </map>
     </option>
@@ -11,7 +11,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
