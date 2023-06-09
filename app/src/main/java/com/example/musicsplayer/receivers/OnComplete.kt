@@ -12,6 +12,6 @@ class OnComplete: BroadcastReceiver() {
 	override fun onReceive(ctx: Context?, intent: Intent?) {
 		val referenceId = intent?.getLongExtra(DownloadManager.EXTRA_DOWNLOAD_ID, -1)
 		log.info("referenceId: $referenceId")
-		(ctx as MainActivity).setupFilePath()
+		(ctx as MainActivity).saveSongDetails()
 	}
 }

@@ -13,5 +13,9 @@ interface SongServices {
 
 	@Streaming
 	@GET
-	fun getMp3(@Url fileUrl: String): Call<ResponseBody>
+	fun getMp3s(@Url fileUrl: String): Call<ResponseBody>
+
+	@Streaming
+	@GET
+	fun getThumbnail(@Url fileUrl: String): Call<ResponseBody>
 }
